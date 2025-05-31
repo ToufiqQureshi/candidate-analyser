@@ -78,8 +78,10 @@ You'll need the following keys:
 Launch App
 Copy
 Edit
+```
 streamlit run Main.py
 ```
+
 
 
 ##🖥️ How to Use
