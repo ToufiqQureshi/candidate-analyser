@@ -5,10 +5,16 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Built%20With-Streamlit-%23FF4B4B?style=for-the-badge">
-  <img src="https://img.shields.io/badge/AI%20Model-DeepSeek-blueviolet?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Agno-Agent%20Framework-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge">
+  <a href="https://streamlit.io" target="_blank">
+    <img src="https://img.shields.io/badge/Built%20With-Streamlit-%23FF4B4B?style=for-the-badge" alt="Streamlit">
+  </a>
+  <a href="https://api-docs.deepseek.com" target="_blank">
+    <img src="https://img.shields.io/badge/AI%20Model-DeepSeek-blueviolet?style=for-the-badge" alt="DeepSeek">
+  </a>
+  <a href="https://agno.com" target="_blank">
+    <img src="https://img.shields.io/badge/Agno-Agent%20Framework-orange?style=for-the-badge" alt="Agno">
+  </a>
+  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" alt="License: MIT">
 </p>
 
 ---
