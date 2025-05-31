@@ -14,7 +14,6 @@
   <a href="https://agno.com" target="_blank">
     <img src="https://img.shields.io/badge/Agno-Agent%20Framework-orange?style=for-the-badge" alt="Agno">
   </a>
-  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" alt="License: MIT">
 </p>
 
 ---
