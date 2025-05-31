@@ -68,7 +68,7 @@ pip install -r requirements.txt
 3. Get API Keys
 You'll need the following keys:
 
-🔑 DeepSeek API Key → Get from DeepSeek.com
+🔑 DeepSeek API Key → Get from [Deepseek](DeepSeek.com).
 
 🔑 GitHub API Key → Generate here (https://github.com/settings/tokens).
 
@@ -101,18 +101,18 @@ Enter Job Role (e.g. ML Engineer)
 
 Click Analyze Candidate 🔥
 
-📊 Evaluation Logic
+**📊 Evaluation Logic
 Candilyzer uses no assumptions and follows strict rules:
 
-📁 GitHub Repos → code quality, structure, frequency
+**📁 GitHub Repos → code quality, structure, frequency
 
-🧑‍💻 Commits → consistency, activity, skills shown
+**🧑‍💻 Commits → consistency, activity, skills shown
 
-💼 LinkedIn → job titles, descriptions, keywords (via Exa)
+**💼 LinkedIn → job titles, descriptions, keywords (via Exa)
 
-🎯 Job Fit → match with required skills & experience
+**🎯 Job Fit → match with required skills & experience
 
-🧠 AI Reasoning → Final combined judgment with score
+**🧠 AI Reasoning → Final combined judgment with score
 
 
 🧪 Powered by Agno Agents
@@ -144,20 +144,18 @@ Provides a final score with strict justification (✅❌)
 
 
 
-📄 License
-This project is licensed under the MIT License.
-Feel free to use, fork, and improve it.
+
 
 💬 Questions / Feedback
 Have suggestions or found a bug?
 Open an issue or start a discussion → GitHub Discussions
 
 🔗 Links
-🔗 Agno Documentation
+🔗 [Agno Documentation](docs.agno.com)
 
-🔗 DeepSeek
+🔗 [DeepSeek](https://api-docs.deepseek.com)
 
-🔗 Exa Search
+🔗 [Exa Search]([docs.exa.ai](https://docs.exa.ai/))
 
 📂 GitHubTools Docs
 
