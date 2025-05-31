@@ -1,71 +1,84 @@
-# 🧠 Candilyzer
+<h1 align="center">🧠 Candilyzer</h1>
+<p align="center">
+  <strong>AI-Powered Candidate Analyzer for GitHub & LinkedIn</strong><br>
+  <em>Strict, expert-level screening for tech candidates</em>
+</p>
 
-**AI-Powered Candidate Analyzer for GitHub & LinkedIn**  
-Strict, expert-level screening for tech candidates.
+<p align="center">
+  <img src="https://img.shields.io/badge/Built%20With-Streamlit-%23FF4B4B?style=for-the-badge">
+  <img src="https://img.shields.io/badge/AI%20Model-DeepSeek-blueviolet?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Agno-Agent%20Framework-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge">
+</p>
 
 ---
 
 ## 🔍 What is Candilyzer?
 
-**Candilyzer** is an advanced, AI-powered app that strictly analyzes technical candidates based on their GitHub and LinkedIn profiles. Designed like a tough hiring manager, it provides detailed evaluations, skill assessments, and a final decision — all with zero assumptions.
+**Candilyzer** is an advanced, AI-powered app that strictly analyzes technical candidates based on their **GitHub** and **LinkedIn** profiles. Designed like a tough hiring manager, it gives you detailed evaluations, skill assessments, and a final decision — all with zero assumptions.
 
 ---
 
 ## ⚡ Features
 
-- **✅ Multi-Candidate Analyzer**  
-  Analyze multiple GitHub users side-by-side for any job role.
+- ✅ **Multi-Candidate Analyzer**  
+  Analyze *multiple* GitHub users side-by-side for any job role.
 
-- **✅ Single Candidate Profiler**  
-  Deep analysis of one candidate's GitHub (plus optional LinkedIn) profile.
+- ✅ **Single Candidate Profiler**  
+  Deep analysis of one candidate's GitHub + optional LinkedIn profile.
 
-- **✅ Strict Scoring System**  
-  Each candidate is scored out of 100 with a clear, final verdict.
+- ✅ **Strict Scoring System**  
+  Each candidate is scored out of 100 with a clear final verdict.
 
-- **✅ Professional-Grade Reports**  
+- ✅ **Professional-Grade Reports**  
   No fluff. Only data-backed, AI-generated expert-level assessments.
 
-- **✅ Powered by Agents**  
-  Uses Agno’s agent framework with DeepSeek, GitHubTools & ExaTools.
+- ✅ **Powered by Agents**  
+  Uses Agno’s agent framework with DeepSeek + GitHubTools + ExaTools.
 
 ---
 
 ## 🧰 Tech Stack
 
-| Component         | Tool/Library                       |
-|-------------------|------------------------------------|
+| Component         | Tool/Library                        |
+|-------------------|-------------------------------------|
 | **UI**            | 🧼 Streamlit                        |
 | **AI Model**      | 🧠 DeepSeek                         |
 | **Agent Framework** | 🧠 Agno Agents                    |
 | **GitHub Analysis**| 🛠️ GitHubTools                    |
-| **LinkedIn Parsing** | 🔎 ExaTools                      |
-| **Reasoning Engine** | 🧩 ReasoningTools + ThinkingTools |
+| **LinkedIn Parsing**| 🔎 ExaTools                       |
+| **Reasoning Engine**| 🧩 ReasoningTools + ThinkingTools |
 
 ---
 
 ## 🚀 How to Run Locally
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/Toufiqqureshi/Candilyzer.git
-   cd Candilyzer
-   ```
+### 1. Clone the Repository
 
-2. **Install Requirements**
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+git clone https://github.com/Toufiqqureshi/Candilyzer.git
+cd Candilyzer
+```
 
-3. **Get API Keys**  
-   You'll need the following API keys:
-   - 🔑 **DeepSeek API Key** → [Get from DeepSeek](https://deepseek.com)
-   - 🔑 **GitHub API Key** → [Generate here](https://github.com/settings/tokens)
-   - 🔑 **Exa API Key** → [Get from Exa](https://exa.ai)
+### 2. Install Requirements
 
-4. **Launch the App**
-   ```bash
-   streamlit run Main.py
-   ```
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Get API Keys
+
+You'll need:
+
+- 🔑 **DeepSeek API Key** → [Get from DeepSeek](https://deepseek.com)
+- 🔑 **GitHub API Key** → [Generate Here](https://github.com/settings/tokens)
+- 🔑 **Exa API Key** → [Get from Exa](https://exa.ai)
+
+### 4. Launch App
+
+```bash
+streamlit run Main.py
+```
 
 ---
 
@@ -75,14 +88,14 @@ Strict, expert-level screening for tech candidates.
 
 1. Paste GitHub usernames (one per line)
 2. Enter target Job Role (e.g. Backend Engineer)
-3. Click **"Analyze Candidates"**
+3. Click **Analyze Candidates**
 
 ### 🔎 Single Candidate Analyzer
 
 1. Enter GitHub username
 2. (Optionally) Add LinkedIn profile link
 3. Enter Job Role (e.g. ML Engineer)
-4. Click **"Analyze Candidate"**
+4. Click **Analyze Candidate** 🔥
 
 ---
 
@@ -90,17 +103,17 @@ Strict, expert-level screening for tech candidates.
 
 Candilyzer uses no assumptions and follows strict rules:
 
-- **📁 GitHub Repos:** code quality, structure, frequency
-- **🧑‍💻 Commits:** consistency, activity, skills shown
-- **💼 LinkedIn:** job titles, descriptions, keywords (via Exa)
-- **🎯 Job Fit:** match with required skills & experience
-- **🧠 AI Reasoning:** Final combined judgment with score
+- 📁 **GitHub Repos** → code quality, structure, frequency
+- 🧑‍💻 **Commits** → consistency, activity, skills shown
+- 💼 **LinkedIn** → job titles, descriptions, keywords (via Exa)
+- 🎯 **Job Fit** → match with required skills & experience
+- 🧠 **AI Reasoning** → Final combined judgment with score
 
 ---
 
 ## 🧪 Powered by Agno Agents
 
-Candilyzer builds a smart agent like so:
+Candilyzer builds a smart agent with:
 
 ```python
 Agent(
@@ -116,9 +129,16 @@ Agent(
 
 **This agent:**
 - Thinks before evaluating (🧠)
-- Gathers accurate GitHub & LinkedIn info (🔍)
+- Gathers accurate GitHub + LinkedIn info (🔍)
 - Reasons like an expert hiring manager (📈)
 - Provides a final score with strict justification (✅❌)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.  
+Feel free to use, fork, and improve it.
 
 ---
 
@@ -138,6 +158,4 @@ Open an [issue](../../issues) or start a [discussion](../../discussions).
 
 ---
 
-> 💡 Candilyzer is your AI hiring expert. Use it to save time, reduce bias, and get straight to the point.
-
----
+> 💡 **Candilyzer is your AI hiring expert. Use it to save time, reduce bias, and get straight to the point.**
