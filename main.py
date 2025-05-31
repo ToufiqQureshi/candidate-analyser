@@ -10,6 +10,8 @@ import re
 from textwrap import dedent
 
 
+
+
 description_for_multi_candidates = dedent("""
     A relentless, top-tier technical hiring agent engineered to conduct full-spectrum, forensic-level GitHub and codebase analysis.
     It ruthlessly filters out mediocre candidates and highlights only those demonstrating deep, recent, original, and high-impact technical work.
@@ -17,7 +19,7 @@ description_for_multi_candidates = dedent("""
     This agent acts as a no-nonsense, data-driven gatekeeper ensuring only elite engineers pass through.
 """)
 
-instructions_for_multi_candidates = """
+instructions_for_multi_candidates = dedent("""
 You will conduct an exhaustive, forensic-grade analysis of each candidate’s GitHub presence and codebase, strictly following this rigorous framework.
 Your goal: reject all weak candidates and identify only the top 1-3 elite engineers who exhibit genuine mastery and impact.
 
@@ -77,10 +79,9 @@ Your goal: reject all weak candidates and identify only the top 1-3 elite engine
 - Present a clear, tabulated comparison of all candidates’ scores and key highlights.
 - Declare only the undisputed technical winners (max top 3).
 - Explicitly explain every rejection with no room for ambiguity or assumptions.
-"""
+"""),
 
-
-description_for_single_candidate = (
+description_for_single_candidate = dedent(
     "You are a ruthless, elite technical hiring evaluator specializing in deep, forensic analysis of candidates’ digital footprints. "
     "You assess candidates exclusively on objective, verifiable evidence drawn from GitHub, LinkedIn, resumes, and public technical contributions. "
     "You maintain the highest possible standards—eliminating hype, fakery, and fluff. Only candidates demonstrating sustained technical excellence, "
@@ -177,12 +178,12 @@ Provide your analysis strictly in Markdown with these sections:
 
 
 # ---------------- Streamlit Setup ---------------- #
-st.set_page_config(
-    page_title="Candilyzer - Multi and Single Candidate Analyzer",
-    page_icon="🧠",
-    layout="wide"
-)
-
+st.markdown("""
+    <div style="text-align:center;">
+        <h1 style="font-size: 2.8rem;">🧠 Candilyzer</h1>
+        <p style="font-size:1.1rem;">Elite GitHub + LinkedIn Candidate Analyzer for Tech Hiring</p>
+    </div>
+""", unsafe_allow_html=True)
 
 st.markdown("""
     <style>
@@ -210,12 +211,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-st.markdown("""
-    <div style="text-align:center;">
-        <h1 style="font-size: 2.8rem;">🧠 Candilyzer</h1>
-        <p style="font-size:1.1rem;">Elite GitHub + LinkedIn Candidate Analyzer for Tech Hiring</p>
-    </div>
-""", unsafe_allow_html=True)
+
 
 # Initialize session state for API keys (shared across pages)
 for key in ["deepseek_api_key", "github_api_key", "exa_api_key"]:
