@@ -66,24 +66,25 @@ pip install -r requirements.txt
 
 
 3. Get API Keys
-You'll need:
+You'll need the following keys:
 
-🔑 DeepSeek API Key → Get from DeepSeek
+🔑 DeepSeek API Key → Get from DeepSeek.com
 
-🔑 GitHub API Key → Generate Here
+🔑 GitHub API Key → Generate here (https://github.com/settings/tokens).
 
-🔑 Exa API Key → Get from Exa
+🔑 Exa API Key → Get from [exa](Exa.ai).
 
-4. Launch App
-bash
+4. ```
+Launch App
 Copy
 Edit
 streamlit run Main.py
+```
 
 
-🖥️ How to Use
-🔁 Multi-Candidate Analyzer
-Paste GitHub usernames (one per line)
+##🖥️ How to Use
+*🔁 Multi-Candidate Analyzer
+*Paste GitHub usernames (one per line)
 
 Enter target Job Role (e.g. Backend Engineer)
 
@@ -115,7 +116,7 @@ Candilyzer uses no assumptions and follows strict rules:
 🧪 Powered by Agno Agents
 Candilyzer builds a smart agent with:
 
-python
+```python
 Copy
 Edit
 Agent(
@@ -127,7 +128,9 @@ Agent(
     ReasoningTools(...)
   ]
 )
-This agent:
+```
+
+##This agent:
 
 Thinks before evaluating (🧠)
 
