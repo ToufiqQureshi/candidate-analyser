@@ -101,26 +101,27 @@ Enter Job Role (e.g. ML Engineer)
 
 Click Analyze Candidate 🔥
 
-**📊 Evaluation Logic
+📊 Evaluation Logic
 Candilyzer uses no assumptions and follows strict rules:
 
-**📁 GitHub Repos → code quality, structure, frequency
+📁 GitHub Repos → code quality, structure, frequency
 
-**🧑‍💻 Commits → consistency, activity, skills shown
+🧑‍💻 Commits → consistency, activity, skills shown
 
-**💼 LinkedIn → job titles, descriptions, keywords (via Exa)
+💼 LinkedIn → job titles, descriptions, keywords (via Exa)
 
-**🎯 Job Fit → match with required skills & experience
+🎯 Job Fit → match with required skills & experience
 
-**🧠 AI Reasoning → Final combined judgment with score
+🧠 AI Reasoning → Final combined judgment with score
 
 
 🧪 Powered by Agno Agents
 Candilyzer builds a smart agent with:
 
-```python
+python
 Copy
 Edit
+```
 Agent(
   model=DeepSeek(...),
   tools=[
