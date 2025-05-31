@@ -55,11 +55,10 @@ Uses Agno’s agent framework with DeepSeek + GitHubTools + ExaTools.
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/Toufiqqureshi/Candilyzer.git
 cd Candilyzer
-
-## 2. Install Requirements
+** 2. Install Requirements
 bash
 Copy
 Edit
@@ -158,8 +157,4 @@ Open an issue or start a discussion → GitHub Discussions
 📂 GitHubTools Docs
 
 💡 Candilyzer is your AI hiring expert. Use it to save time, reduce bias, and get straight to the point.
-
-yaml
-Copy
-Edit
 
