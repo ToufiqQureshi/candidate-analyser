@@ -183,6 +183,40 @@ st.set_page_config(
     layout="wide"
 )
 
+
+st.markdown("""
+    <style>
+    html, body, [class*="css"]  {
+        font-family: 'Segoe UI', sans-serif;
+    }
+    .stTextInput > div > input, .stTextArea textarea {
+        border-radius: 8px;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+    .stButton button {
+        background-color: #4F46E5;
+        color: white;
+        padding: 0.6rem 1.2rem;
+        font-weight: 600;
+        border-radius: 10px;
+        border: none;
+        margin-top: 0.5rem;
+    }
+    .stSpinner {
+        color: #4F46E5 !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+
+st.markdown("""
+    <div style="text-align:center;">
+        <h1 style="font-size: 2.8rem;">🧠 Candilyzer</h1>
+        <p style="font-size:1.1rem;">Elite GitHub + LinkedIn Candidate Analyzer for Tech Hiring</p>
+    </div>
+""", unsafe_allow_html=True)
+
 # Initialize session state for API keys (shared across pages)
 for key in ["deepseek_api_key", "github_api_key", "exa_api_key"]:
     if key not in st.session_state:
